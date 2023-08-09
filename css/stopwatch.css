@@ -1,0 +1,33 @@
+#stopwatch-container {
+     width: 600px;
+     padding: 5% 0;
+     margin-left: 450px;
+     color: #e7eafb;
+     margin-top: -420px;
+     text-align: center;
+     background-color: #202020;
+     box-shadow: 1px 0px 4px 2px #9c9a9a;
+     border-radius: 20px;
+}
+
+#stopwatch {
+     font-size: 100px;
+     margin-bottom: 10px;
+}
+
+button {
+     width: 100px;
+     height: 30px;
+     background-color: #202020;
+     color: white;
+     border-radius: 6px;
+     border: 2px solid #fff;
+     margin-left: 5px;
+     margin-right: 5px;
+}
+
+button:hover {
+     background-color: #fff;
+     color: #202020;
+     cursor: pointer;
+}
