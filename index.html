@@ -13,8 +13,9 @@
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Demo CSS (No need to include it into your project) -->
-  <link rel="stylesheet" href="css/alarm.css">
+  <link rel="stylesheet" href="css/demo.css">
   <link rel="stylesheet" href="css/stopwatch.css">
+  <link rel="stylesheet" href="css/clock.css">
 
 </head>
 
@@ -22,6 +23,7 @@
    background-image: url('https://i.pinimg.com/564x/8d/10/ae/8d10ae76c810ccf6efc39667bf1f42aa.jpg');
    background-repeat: no-repeat;
    background-size: cover;">
+  <img src="" alt="">
   <header class="intro">
     <h1>JavaScript Alarm Clock </h1>
     <p> A lightweight JavaScript code snippet for alarm clock with sound.</p>
@@ -33,7 +35,6 @@
     <div class="table clock-wrapper">
       <div class="cell">
         <h2 id="clock" class="clock"></h2>
-
         <select id="hours"></select>
         <select id="minutes"></select>
         <select id="seconds"></select>
@@ -54,7 +55,6 @@
     </div>
     <!-- END EDMO HTML (Happy Coding!)-->
   </main>
-
   <!-- stopwatch -->
   <div id="stopwatch-container">
     <h1>Stopwatch using JavaScript</h1>
@@ -63,10 +63,18 @@
     <button onclick="pause()">Pause</button>
     <button onclick="reset()">Reset</button>
   </div>
+  <!-- clock -->
+  <div id="clockContainer">
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+    <h2 id="time"></h2>
+  </div>
 
   <!-- Alarm Clock JS  -->
-  <script src="js/alarm.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/stopwatch.js"></script>
+  <script src="js/clock.js"></script>
 
 </body>
 
